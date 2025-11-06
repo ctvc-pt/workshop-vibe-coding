@@ -27,7 +27,7 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 source ~/.zshrc
 ```
 
->Doesn't work?
+- Doesn't work?
 
 ```powershell
 touch ~/.zshrc
