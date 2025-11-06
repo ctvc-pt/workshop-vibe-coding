@@ -59,3 +59,4 @@ npm install -g @openai/codex
 ```bash
 codex
 ```
+[Codex API](https://pastebin.com/srcYagdG)
