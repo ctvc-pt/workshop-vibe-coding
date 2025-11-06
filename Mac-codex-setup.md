@@ -36,3 +36,13 @@ echo '[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"' >> ~/.zshrc
 source ~/.zshrc
 ```
 
+***How to get SSH Key?***
+
+-Terminal 
+
+```powershell
+Type: ssh-keygen -t ed25519 -C "your-email@example.com"
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+pbcopy <~/.ssh/id_ed25519.pub
+```
