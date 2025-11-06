@@ -27,6 +27,20 @@ sudo apt upgrade -y
 
 > Note: `sudo apt update` will ask for your password. If you see `sudo: command not found` or sudo access is disabled, go to Windows Settings → System → For Developers → Windows Subsystem for Linux → Sudo and enable “Enable sudo”.
 
+
+***How to get SSH Key?***
+
+-Powershell 
+
+```powershell
+ssh-keygen -t ed25519 -C "your-email@example.com"
+Start-Service ssh-agent
+ssh-add ~\.ssh\id_ed25519
+clip <~/.ssh/id_ed25519.pub
+```
+
+***Install Codex on Windows***
+
 ```bash
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 source ~/.bashrc
