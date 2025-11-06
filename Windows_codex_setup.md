@@ -16,9 +16,7 @@ wsl --install -d Ubuntu
 **If Ubuntu does not open automatically**
 
 1. Launch Windows PowerShell as Administrator.
-2. Run `wsl`.
-3. If that still fails, run `wsl --install -d Ubuntu`.
-4. If you still are not asked to create credentials, run `wsl -d Ubuntu`.
+2. Run `wsl --install -d Ubuntu`.
 
 ## Inside Ubuntu
 
